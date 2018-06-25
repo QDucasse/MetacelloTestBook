@@ -1,13 +1,13 @@
-!!Chapter2
+!!Chapter3
 
 [[[testcase=true|hidden=true
 Metacello new
-	repository: 'github://QDucasse/MetacelloTestBook:Chapter2'
+	repository: 'github://QDucasse/MetacelloTestBook:Chapter3'
 ]]]
 
 [[[testcase=true
 Plop new chapterOneMethod
->>> 'chapterOne'
+>>> 'chapterThree'
 ]]]
 
 [[[testcase=true
@@ -17,5 +17,5 @@ Plop new chapterTwoMethod
 
 [[[testcase=true
 Plop new chapterThreeMethod
->>> Error
+>>> 'chapterThree'
 ]]]
