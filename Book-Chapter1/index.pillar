@@ -1,0 +1,6 @@
+!My First book
+
+${inputFile:path=Chapters/Introduction/introduction.pillar}$
+
+${inputFile:path=Chapters/Chapter1/chapter1.pillar}$
+
